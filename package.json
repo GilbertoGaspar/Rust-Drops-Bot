@@ -1,0 +1,25 @@
+{
+  "name": "rust-dropper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setupDonefile.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "find-process": "^1.4.4",
+    "fkill": "^7.1.0",
+    "node-fetch": "^2.6.1",
+    "tree-kill": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
